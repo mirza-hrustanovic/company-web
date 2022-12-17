@@ -1,0 +1,43 @@
+
+@media screen and (max-width:768px){
+  .navBar{
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+
+  }
+  .logo{
+    position: initial;
+    width:250px;
+    margin-right: 20px;
+    
+  }
+  .navBarLinks ul{
+    display: block;
+    width: 100%;
+        text-align: center;
+        align-items: center;
+        padding-top: 10px;
+        padding-right: 30px;
+        
+        
+  }
+  .navBarLinks li{
+    padding: 10px;
+    margin-bottom: 10px;
+    
+        
+  }
+  
+ 
+ 
+  .hamburger{
+    position:absolute;
+    display: block;
+    top:28px;
+    right:20px;
+    color:black;
+  }
+ 
+  
+}

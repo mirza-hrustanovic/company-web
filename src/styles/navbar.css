@@ -1,0 +1,55 @@
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fbfffc;;
+    color: white;
+    width: 100%;
+    position: fixed;
+    top:0;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.849);
+    transition: 0.2s;
+    height: 150px;
+    z-index: 1000;
+    
+}
+
+.logo{
+    width: min(80vw, 320px);
+    height: 160px;
+    display: flex;
+    align-items: center;
+}
+ .navBarLinks ul{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  
+  
+  
+}
+.navBarLinks li{
+  padding: 5px;
+  margin-left: 10px;
+  
+ 
+}
+.navBarLinks a{
+    text-decoration: none;
+    color:green;
+    font-size: 20px;
+    border:1px solid black;
+    border-radius: 10px;
+    padding: 4px;
+    
+    
+   
+}
+.hamburger{
+  display: none;
+}
+
+
