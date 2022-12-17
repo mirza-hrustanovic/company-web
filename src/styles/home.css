@@ -36,9 +36,11 @@
 }
 .coulumn{
     column-count: 3;
+    background-color: white;
 }
 .cardData{
     column-count: 4;
+    margin-bottom: 70px;
     
 }
 .card {
@@ -61,7 +63,8 @@
   }
   
   .card-body {
-    padding: 2px 16px;
+    padding-bottom: 20px;
+    background-color: white;
   }
   
   .card-title {

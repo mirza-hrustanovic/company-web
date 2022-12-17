@@ -12,12 +12,15 @@ const Home = () =>{
         <div className="cardData">
             {datas.map(data =>{
                 return(<div className="card"key={data.id}>
-                    <img src={data.pic}></img>
+                    <a href={"/services/" + data.title + "/?" + data.id}><img src={data.pic}></img>
                     <div className="card-body">
                         <h4 className="card-title">{data.title}</h4>
                     
                     <p className="card-text">{data.text}</p>
-                    <a href={"/services/" + data.title + "/?" + data.id}>See more</a></div>
+                    </div>
+                    </a>
+                    
+                    
                    
                 
                 </div>) 

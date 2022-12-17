@@ -3,14 +3,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fbfffc;;
+    background-color: rgba(240, 233, 233, 0.932);
     color: white;
     width: 100%;
     position: fixed;
     top:0;
     box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.849);
     transition: 0.2s;
-    height: 150px;
+    height: 130px;
     z-index: 1000;
     
 }
