@@ -20,7 +20,7 @@
     letter-spacing: 5px;
 }
 .homeContent{
-    padding: 30px 0;
+   
     color:darkolivegreen;
     padding: 50px;
     font-family: cursive;
@@ -37,6 +37,7 @@
 .coulumn{
     column-count: 3;
     background-color: white;
+    border: 3px solid rgb(48, 45, 45);
 }
 .cardData{
     column-count: 4;
@@ -79,4 +80,9 @@
   .card a{
     text-decoration: none;
     color:olive;
+  }
+  .h1Services{
+    font-size: 2rem;
+    font-weight: 800;
+    color:green;
   }

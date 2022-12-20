@@ -13,7 +13,7 @@ export  const datas = [{
 },{
     id:3,
     pic:handyman1,
-    title:"Hausmeisterservice",
+    title:"Hausmeisterservicesssss",
     text:"Von der Instandhaltung der Haustechnik bis hin zu Kleinreparaturen, Heizungswartung und Kontrolle, Baumängelbeseitigung und Renovierung."
 },{
     id:4,
